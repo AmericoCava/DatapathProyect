@@ -1,0 +1,5 @@
+categories = ['category_id','category_department_id','category_name']
+customer = ['customer_id','customer_fname','customer_lname','customer_email','customer_password','customer_stret','customer_state','customer_city','customer_zipcode']
+departments = ['department_id','department_name']
+order_items = ['order_item_id','order_item_order_id','order_item_product_id','order_item_quantity','order_item_subtotal','order_item_product_price']
+orders = ['order_id','order_date','order_customer_id','order_status']

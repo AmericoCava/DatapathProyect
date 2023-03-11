@@ -1,0 +1,38 @@
+[2023-02-07 21:57:21,091] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: mysqloperator_demo.CreateTable manual__2023-02-07T21:57:19.885429+00:00 [queued]>
+[2023-02-07 21:57:21,099] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: mysqloperator_demo.CreateTable manual__2023-02-07T21:57:19.885429+00:00 [queued]>
+[2023-02-07 21:57:21,100] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-07 21:57:21,100] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-07 21:57:21,100] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-07 21:57:21,112] {taskinstance.py:1377} INFO - Executing <Task(MySqlOperator): CreateTable> on 2023-02-07 21:57:19.885429+00:00
+[2023-02-07 21:57:21,115] {standard_task_runner.py:52} INFO - Started process 258 to run task
+[2023-02-07 21:57:21,117] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'mysqloperator_demo', 'CreateTable', 'manual__2023-02-07T21:57:19.885429+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/mysqloperator.py', '--cfg-path', '/tmp/tmpqtl20lks', '--error-file', '/tmp/tmp_kt38iic']
+[2023-02-07 21:57:21,118] {standard_task_runner.py:80} INFO - Job 4: Subtask CreateTable
+[2023-02-07 21:57:21,165] {task_command.py:369} INFO - Running <TaskInstance: mysqloperator_demo.CreateTable manual__2023-02-07T21:57:19.885429+00:00 [running]> on host d588132d752c
+[2023-02-07 21:57:21,229] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=dezyre
+AIRFLOW_CTX_DAG_ID=mysqloperator_demo
+AIRFLOW_CTX_TASK_ID=CreateTable
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-07T21:57:19.885429+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-07T21:57:19.885429+00:00
+[2023-02-07 21:57:21,230] {mysql.py:82} INFO - Executing:  CREATE TABLE datapath4.employee(empid int, empname VARCHAR(25), salary int); 
+[2023-02-07 21:57:21,238] {base.py:68} INFO - Using connection ID 'mysl_conn' for task execution.
+[2023-02-07 21:57:21,252] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/mysql/operators/mysql.py", line 84, in execute
+    hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 181, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/mysql/hooks/mysql.py", line 166, in get_conn
+    return MySQLdb.connect(**conn_config)
+  File "/home/airflow/.local/lib/python3.7/site-packages/MySQLdb/__init__.py", line 123, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/MySQLdb/connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (1045, "Access denied for user 'root'@'172.27.0.7' (using password: YES)")
+[2023-02-07 21:57:21,258] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=mysqloperator_demo, task_id=CreateTable, execution_date=20230207T215719, start_date=20230207T215721, end_date=20230207T215721
+[2023-02-07 21:57:21,302] {standard_task_runner.py:97} ERROR - Failed to execute job 4 for task CreateTable ((1045, "Access denied for user 'root'@'172.27.0.7' (using password: YES)"); 258)
+[2023-02-07 21:57:21,329] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-02-07 21:57:21,365] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

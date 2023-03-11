@@ -1,0 +1,2 @@
+[2023-03-10 02:39:34,435] {taskinstance.py:1153} INFO - Dependencies not met for <TaskInstance: pipeline_bash_operator.run_script_transform manual__2023-03-10T02:39:33.712875+00:00 [queued]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_tasks_state={'total': 1, 'successes': 0, 'skipped': 0, 'failed': 0, 'upstream_failed': 0, 'done': 0}, upstream_task_ids={'run_script_ingest'}
+[2023-03-10 02:39:34,437] {local_task_job.py:101} INFO - Task is not able to be run

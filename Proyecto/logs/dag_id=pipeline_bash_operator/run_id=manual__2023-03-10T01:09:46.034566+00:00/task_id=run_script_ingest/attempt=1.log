@@ -1,0 +1,29 @@
+[2023-03-10 01:09:47,223] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_ingest manual__2023-03-10T01:09:46.034566+00:00 [queued]>
+[2023-03-10 01:09:47,229] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_ingest manual__2023-03-10T01:09:46.034566+00:00 [queued]>
+[2023-03-10 01:09:47,231] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-10 01:09:47,232] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-10 01:09:47,233] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-10 01:09:47,241] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): run_script_ingest> on 2023-03-10 01:09:46.034566+00:00
+[2023-03-10 01:09:47,245] {standard_task_runner.py:52} INFO - Started process 935 to run task
+[2023-03-10 01:09:47,247] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'pipeline_bash_operator', 'run_script_ingest', 'manual__2023-03-10T01:09:46.034566+00:00', '--job-id', '70', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_bash_operator.py', '--cfg-path', '/tmp/tmptv5mxs7c', '--error-file', '/tmp/tmpy1jqdi8x']
+[2023-03-10 01:09:47,249] {standard_task_runner.py:80} INFO - Job 70: Subtask run_script_ingest
+[2023-03-10 01:09:47,292] {task_command.py:369} INFO - Running <TaskInstance: pipeline_bash_operator.run_script_ingest manual__2023-03-10T01:09:46.034566+00:00 [running]> on host 477ef5e408be
+[2023-03-10 01:09:47,343] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Americo
+AIRFLOW_CTX_DAG_ID=pipeline_bash_operator
+AIRFLOW_CTX_TASK_ID=run_script_ingest
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-10T01:09:46.034566+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-10T01:09:46.034566+00:00
+[2023-03-10 01:09:47,345] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-10 01:09:47,346] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'python /opt/***/dags/Proyecto/ingest.py']
+[2023-03-10 01:09:47,354] {subprocess.py:85} INFO - Output:
+[2023-03-10 01:10:07,101] {subprocess.py:92} INFO - ingest loaded
+[2023-03-10 01:10:07,104] {subprocess.py:92} INFO - loaded adsl landing
+[2023-03-10 01:10:07,209] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-03-10 01:10:07,228] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=pipeline_bash_operator, task_id=run_script_ingest, execution_date=20230310T010946, start_date=20230310T010947, end_date=20230310T011007
+[2023-03-10 01:10:07,280] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-03-10 01:10:07,299] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

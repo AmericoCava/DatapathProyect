@@ -1,0 +1,30 @@
+[2023-03-10 02:42:04,924] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_load manual__2023-03-10T02:41:18.361062+00:00 [queued]>
+[2023-03-10 02:42:04,930] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_load manual__2023-03-10T02:41:18.361062+00:00 [queued]>
+[2023-03-10 02:42:04,931] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-10 02:42:04,933] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-10 02:42:04,933] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-10 02:42:04,942] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): run_script_load> on 2023-03-10 02:41:18.361062+00:00
+[2023-03-10 02:42:04,946] {standard_task_runner.py:52} INFO - Started process 3083 to run task
+[2023-03-10 02:42:04,948] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'pipeline_bash_operator', 'run_script_load', 'manual__2023-03-10T02:41:18.361062+00:00', '--job-id', '100', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_bash_operator.py', '--cfg-path', '/tmp/tmpxwqoywxo', '--error-file', '/tmp/tmpww2s7s7k']
+[2023-03-10 02:42:04,950] {standard_task_runner.py:80} INFO - Job 100: Subtask run_script_load
+[2023-03-10 02:42:04,987] {task_command.py:369} INFO - Running <TaskInstance: pipeline_bash_operator.run_script_load manual__2023-03-10T02:41:18.361062+00:00 [running]> on host 477ef5e408be
+[2023-03-10 02:42:05,031] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Americo
+AIRFLOW_CTX_DAG_ID=pipeline_bash_operator
+AIRFLOW_CTX_TASK_ID=run_script_load
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-10T02:41:18.361062+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-10T02:41:18.361062+00:00
+[2023-03-10 02:42:05,033] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-10 02:42:05,034] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'python /opt/***/dags/Proyecto/load.py']
+[2023-03-10 02:42:05,041] {subprocess.py:85} INFO - Output:
+[2023-03-10 02:44:21,502] {local_task_job.py:221} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2023-03-10 02:44:21,505] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 3083. PIDs of all processes in the group: [3084, 3083]
+[2023-03-10 02:44:21,507] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 3083
+[2023-03-10 02:44:21,509] {taskinstance.py:1541} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-03-10 02:44:21,510] {subprocess.py:103} INFO - Sending SIGTERM signal to process group
+[2023-03-10 02:44:21,536] {process_utils.py:75} INFO - Process psutil.Process(pid=3084, status='terminated', started='02:42:04') (3084) terminated with exit code None
+[2023-03-10 02:44:21,537] {process_utils.py:75} INFO - Process psutil.Process(pid=3083, status='terminated', exitcode=0, started='02:42:04') (3083) terminated with exit code 0

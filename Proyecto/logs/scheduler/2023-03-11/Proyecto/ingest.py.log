@@ -1,0 +1,154 @@
+[2023-03-11 04:08:32,432] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:08:32,433] {processor.py:641} INFO - Processing file /opt/airflow/dags/Proyecto/ingest.py for tasks to queue
+[2023-03-11 04:08:32,434] {logging_mixin.py:115} INFO - [2023-03-11 04:08:32,434] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:08:32,442] {logging_mixin.py:115} INFO - [2023-03-11 04:08:32,440] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/Proyecto/ingest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Proyecto/ingest.py", line 1, in <module>
+    import process.name as n
+ModuleNotFoundError: No module named 'process'
+[2023-03-11 04:08:32,443] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:08:32,474] {processor.py:161} INFO - Processing /opt/airflow/dags/Proyecto/ingest.py took 0.044 seconds
+[2023-03-11 04:09:02,632] {processor.py:153} INFO - Started process (PID=205) to work on /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:09:02,634] {processor.py:641} INFO - Processing file /opt/airflow/dags/Proyecto/ingest.py for tasks to queue
+[2023-03-11 04:09:02,635] {logging_mixin.py:115} INFO - [2023-03-11 04:09:02,635] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:09:02,643] {logging_mixin.py:115} INFO - [2023-03-11 04:09:02,642] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/Proyecto/ingest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Proyecto/ingest.py", line 1, in <module>
+    import process.name as n
+ModuleNotFoundError: No module named 'process'
+[2023-03-11 04:09:02,645] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:09:02,658] {processor.py:161} INFO - Processing /opt/airflow/dags/Proyecto/ingest.py took 0.029 seconds
+[2023-03-11 04:09:32,796] {processor.py:153} INFO - Started process (PID=223) to work on /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:09:32,798] {processor.py:641} INFO - Processing file /opt/airflow/dags/Proyecto/ingest.py for tasks to queue
+[2023-03-11 04:09:32,800] {logging_mixin.py:115} INFO - [2023-03-11 04:09:32,800] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:09:32,809] {logging_mixin.py:115} INFO - [2023-03-11 04:09:32,806] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/Proyecto/ingest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Proyecto/ingest.py", line 1, in <module>
+    import process.name as n
+ModuleNotFoundError: No module named 'process'
+[2023-03-11 04:09:32,810] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:09:32,836] {processor.py:161} INFO - Processing /opt/airflow/dags/Proyecto/ingest.py took 0.043 seconds
+[2023-03-11 04:10:03,012] {processor.py:153} INFO - Started process (PID=244) to work on /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:10:03,014] {processor.py:641} INFO - Processing file /opt/airflow/dags/Proyecto/ingest.py for tasks to queue
+[2023-03-11 04:10:03,017] {logging_mixin.py:115} INFO - [2023-03-11 04:10:03,017] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:10:03,026] {logging_mixin.py:115} INFO - [2023-03-11 04:10:03,024] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/Proyecto/ingest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Proyecto/ingest.py", line 1, in <module>
+    import process.name as n
+ModuleNotFoundError: No module named 'process'
+[2023-03-11 04:10:03,027] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:10:03,043] {processor.py:161} INFO - Processing /opt/airflow/dags/Proyecto/ingest.py took 0.035 seconds
+[2023-03-11 04:10:33,226] {processor.py:153} INFO - Started process (PID=273) to work on /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:10:33,229] {processor.py:641} INFO - Processing file /opt/airflow/dags/Proyecto/ingest.py for tasks to queue
+[2023-03-11 04:10:33,231] {logging_mixin.py:115} INFO - [2023-03-11 04:10:33,231] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:10:33,240] {logging_mixin.py:115} INFO - [2023-03-11 04:10:33,238] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/Proyecto/ingest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Proyecto/ingest.py", line 1, in <module>
+    import process.name as n
+ModuleNotFoundError: No module named 'process'
+[2023-03-11 04:10:33,241] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:10:33,255] {processor.py:161} INFO - Processing /opt/airflow/dags/Proyecto/ingest.py took 0.032 seconds
+[2023-03-11 04:11:03,446] {processor.py:153} INFO - Started process (PID=301) to work on /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:11:03,447] {processor.py:641} INFO - Processing file /opt/airflow/dags/Proyecto/ingest.py for tasks to queue
+[2023-03-11 04:11:03,448] {logging_mixin.py:115} INFO - [2023-03-11 04:11:03,448] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:11:03,459] {logging_mixin.py:115} INFO - [2023-03-11 04:11:03,457] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/Proyecto/ingest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Proyecto/ingest.py", line 1, in <module>
+    import process.name as n
+ModuleNotFoundError: No module named 'process'
+[2023-03-11 04:11:03,460] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:11:03,474] {processor.py:161} INFO - Processing /opt/airflow/dags/Proyecto/ingest.py took 0.031 seconds
+[2023-03-11 04:11:33,695] {processor.py:153} INFO - Started process (PID=319) to work on /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:11:33,698] {processor.py:641} INFO - Processing file /opt/airflow/dags/Proyecto/ingest.py for tasks to queue
+[2023-03-11 04:11:33,699] {logging_mixin.py:115} INFO - [2023-03-11 04:11:33,699] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:11:33,708] {logging_mixin.py:115} INFO - [2023-03-11 04:11:33,706] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/Proyecto/ingest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Proyecto/ingest.py", line 1, in <module>
+    import process.name as n
+ModuleNotFoundError: No module named 'process'
+[2023-03-11 04:11:33,710] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:11:33,724] {processor.py:161} INFO - Processing /opt/airflow/dags/Proyecto/ingest.py took 0.036 seconds
+[2023-03-11 04:12:03,939] {processor.py:153} INFO - Started process (PID=330) to work on /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:12:03,941] {processor.py:641} INFO - Processing file /opt/airflow/dags/Proyecto/ingest.py for tasks to queue
+[2023-03-11 04:12:03,943] {logging_mixin.py:115} INFO - [2023-03-11 04:12:03,943] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:12:03,953] {logging_mixin.py:115} INFO - [2023-03-11 04:12:03,951] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/Proyecto/ingest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Proyecto/ingest.py", line 1, in <module>
+    import process.name as n
+ModuleNotFoundError: No module named 'process'
+[2023-03-11 04:12:03,954] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:12:03,969] {processor.py:161} INFO - Processing /opt/airflow/dags/Proyecto/ingest.py took 0.033 seconds
+[2023-03-11 04:12:34,144] {processor.py:153} INFO - Started process (PID=358) to work on /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:12:34,146] {processor.py:641} INFO - Processing file /opt/airflow/dags/Proyecto/ingest.py for tasks to queue
+[2023-03-11 04:12:34,148] {logging_mixin.py:115} INFO - [2023-03-11 04:12:34,148] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:12:34,158] {logging_mixin.py:115} INFO - [2023-03-11 04:12:34,155] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/Proyecto/ingest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Proyecto/ingest.py", line 1, in <module>
+    import process.name as n
+ModuleNotFoundError: No module named 'process'
+[2023-03-11 04:12:34,158] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:12:34,173] {processor.py:161} INFO - Processing /opt/airflow/dags/Proyecto/ingest.py took 0.032 seconds
+[2023-03-11 04:13:04,370] {processor.py:153} INFO - Started process (PID=377) to work on /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:13:04,372] {processor.py:641} INFO - Processing file /opt/airflow/dags/Proyecto/ingest.py for tasks to queue
+[2023-03-11 04:13:04,374] {logging_mixin.py:115} INFO - [2023-03-11 04:13:04,374] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:13:04,387] {logging_mixin.py:115} INFO - [2023-03-11 04:13:04,385] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/Proyecto/ingest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Proyecto/ingest.py", line 1, in <module>
+    import process.name as n
+ModuleNotFoundError: No module named 'process'
+[2023-03-11 04:13:04,389] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:13:04,402] {processor.py:161} INFO - Processing /opt/airflow/dags/Proyecto/ingest.py took 0.035 seconds
+[2023-03-11 04:13:34,745] {processor.py:153} INFO - Started process (PID=387) to work on /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:13:34,746] {processor.py:641} INFO - Processing file /opt/airflow/dags/Proyecto/ingest.py for tasks to queue
+[2023-03-11 04:13:34,748] {logging_mixin.py:115} INFO - [2023-03-11 04:13:34,748] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:13:34,756] {logging_mixin.py:115} INFO - [2023-03-11 04:13:34,755] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/Proyecto/ingest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Proyecto/ingest.py", line 1, in <module>
+    import process.name as n
+ModuleNotFoundError: No module named 'process'
+[2023-03-11 04:13:34,758] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/Proyecto/ingest.py
+[2023-03-11 04:13:34,771] {processor.py:161} INFO - Processing /opt/airflow/dags/Proyecto/ingest.py took 0.030 seconds

@@ -1,0 +1,34 @@
+[2023-03-05 01:10:49,965] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_ingest manual__2023-03-05T01:10:49.610985+00:00 [queued]>
+[2023-03-05 01:10:49,972] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_ingest manual__2023-03-05T01:10:49.610985+00:00 [queued]>
+[2023-03-05 01:10:49,973] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-05 01:10:49,974] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-05 01:10:49,975] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-05 01:10:49,983] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): run_script_ingest> on 2023-03-05 01:10:49.610985+00:00
+[2023-03-05 01:10:49,987] {standard_task_runner.py:52} INFO - Started process 425 to run task
+[2023-03-05 01:10:49,990] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'pipeline_bash_operator', 'run_script_ingest', 'manual__2023-03-05T01:10:49.610985+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_bash_operator.py', '--cfg-path', '/tmp/tmpfuwr_91j', '--error-file', '/tmp/tmprgre7x2c']
+[2023-03-05 01:10:49,991] {standard_task_runner.py:80} INFO - Job 8: Subtask run_script_ingest
+[2023-03-05 01:10:50,030] {task_command.py:369} INFO - Running <TaskInstance: pipeline_bash_operator.run_script_ingest manual__2023-03-05T01:10:49.610985+00:00 [running]> on host 004ed28f4a99
+[2023-03-05 01:10:50,073] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Americo
+AIRFLOW_CTX_DAG_ID=pipeline_bash_operator
+AIRFLOW_CTX_TASK_ID=run_script_ingest
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-05T01:10:49.610985+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-05T01:10:49.610985+00:00
+[2023-03-05 01:10:50,075] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-05 01:10:50,077] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'python /Users/americocavallieri/Downloads/Apache_Airflow/Proyecto/ingest.py']
+[2023-03-05 01:10:50,083] {subprocess.py:85} INFO - Output:
+[2023-03-05 01:10:50,092] {subprocess.py:92} INFO - python: can't open file '/Users/americocavallieri/Downloads/Apache_Airflow/Proyecto/ingest.py': [Errno 2] No such file or directory
+[2023-03-05 01:10:50,093] {subprocess.py:96} INFO - Command exited with return code 2
+[2023-03-05 01:10:50,103] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 195, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2023-03-05 01:10:50,107] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=pipeline_bash_operator, task_id=run_script_ingest, execution_date=20230305T011049, start_date=20230305T011049, end_date=20230305T011050
+[2023-03-05 01:10:50,115] {standard_task_runner.py:97} ERROR - Failed to execute job 8 for task run_script_ingest (Bash command failed. The command returned a non-zero exit code 2.; 425)
+[2023-03-05 01:10:50,123] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-03-05 01:10:50,148] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

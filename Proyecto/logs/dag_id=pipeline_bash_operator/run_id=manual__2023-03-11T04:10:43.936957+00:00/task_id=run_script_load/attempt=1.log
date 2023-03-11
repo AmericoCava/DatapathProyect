@@ -1,0 +1,27 @@
+[2023-03-11 04:11:26,998] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_load manual__2023-03-11T04:10:43.936957+00:00 [queued]>
+[2023-03-11 04:11:27,005] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_load manual__2023-03-11T04:10:43.936957+00:00 [queued]>
+[2023-03-11 04:11:27,006] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-11 04:11:27,008] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-11 04:11:27,009] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-11 04:11:27,017] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): run_script_load> on 2023-03-11 04:10:43.936957+00:00
+[2023-03-11 04:11:27,021] {standard_task_runner.py:52} INFO - Started process 309 to run task
+[2023-03-11 04:11:27,024] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'pipeline_bash_operator', 'run_script_load', 'manual__2023-03-11T04:10:43.936957+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_bash_operator.py', '--cfg-path', '/tmp/tmpt0vqgpfn', '--error-file', '/tmp/tmpgsg_zf3g']
+[2023-03-11 04:11:27,026] {standard_task_runner.py:80} INFO - Job 6: Subtask run_script_load
+[2023-03-11 04:11:27,062] {task_command.py:369} INFO - Running <TaskInstance: pipeline_bash_operator.run_script_load manual__2023-03-11T04:10:43.936957+00:00 [running]> on host 0c709fd69f88
+[2023-03-11 04:11:27,104] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Americo
+AIRFLOW_CTX_DAG_ID=pipeline_bash_operator
+AIRFLOW_CTX_TASK_ID=run_script_load
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-11T04:10:43.936957+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-11T04:10:43.936957+00:00
+[2023-03-11 04:11:27,106] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-11 04:11:27,108] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'python /opt/***/dags/Proyecto/load.py']
+[2023-03-11 04:11:27,115] {subprocess.py:85} INFO - Output:
+[2023-03-11 04:11:53,593] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-03-11 04:11:53,613] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=pipeline_bash_operator, task_id=run_script_load, execution_date=20230311T041043, start_date=20230311T041126, end_date=20230311T041153
+[2023-03-11 04:11:53,659] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-03-11 04:11:53,676] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

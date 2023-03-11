@@ -1,0 +1,28 @@
+[2023-03-06 02:37:50,235] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: MiPrimerDag.1 manual__2023-03-06T02:37:49.111781+00:00 [queued]>
+[2023-03-06 02:37:50,242] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: MiPrimerDag.1 manual__2023-03-06T02:37:49.111781+00:00 [queued]>
+[2023-03-06 02:37:50,243] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-06 02:37:50,244] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-06 02:37:50,245] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-06 02:37:50,254] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): 1> on 2023-03-06 02:37:49.111781+00:00
+[2023-03-06 02:37:50,258] {standard_task_runner.py:52} INFO - Started process 5706 to run task
+[2023-03-06 02:37:50,260] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'MiPrimerDag', '1', 'manual__2023-03-06T02:37:49.111781+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/1_MiPrimerDag.py', '--cfg-path', '/tmp/tmp2ap5woq5', '--error-file', '/tmp/tmpuw2416d5']
+[2023-03-06 02:37:50,262] {standard_task_runner.py:80} INFO - Job 47: Subtask 1
+[2023-03-06 02:37:50,297] {task_command.py:369} INFO - Running <TaskInstance: MiPrimerDag.1 manual__2023-03-06T02:37:49.111781+00:00 [running]> on host 477ef5e408be
+[2023-03-06 02:37:50,340] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Americo
+AIRFLOW_CTX_DAG_ID=MiPrimerDag
+AIRFLOW_CTX_TASK_ID=1
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-06T02:37:49.111781+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-06T02:37:49.111781+00:00
+[2023-03-06 02:37:50,342] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-06 02:37:50,343] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo "Mi primer Dag en Apche Airflow, fecha $TODAY"']
+[2023-03-06 02:37:50,349] {subprocess.py:85} INFO - Output:
+[2023-03-06 02:37:50,350] {subprocess.py:92} INFO - Mi primer Dag en Apche Airflow, fecha 2023-03-06
+[2023-03-06 02:37:50,352] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-03-06 02:37:50,371] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=MiPrimerDag, task_id=1, execution_date=20230306T023749, start_date=20230306T023750, end_date=20230306T023750
+[2023-03-06 02:37:50,393] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-03-06 02:37:50,416] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

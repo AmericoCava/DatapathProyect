@@ -1,0 +1,31 @@
+[2023-03-08 00:58:44,431] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_transform manual__2023-03-08T00:58:25.075217+00:00 [queued]>
+[2023-03-08 00:58:44,437] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_transform manual__2023-03-08T00:58:25.075217+00:00 [queued]>
+[2023-03-08 00:58:44,438] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-08 00:58:44,439] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-08 00:58:44,441] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-08 00:58:44,450] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): run_script_transform> on 2023-03-08 00:58:25.075217+00:00
+[2023-03-08 00:58:44,453] {standard_task_runner.py:52} INFO - Started process 1447 to run task
+[2023-03-08 00:58:44,456] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'pipeline_bash_operator', 'run_script_transform', 'manual__2023-03-08T00:58:25.075217+00:00', '--job-id', '58', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_bash_operator.py', '--cfg-path', '/tmp/tmpauhx9_bz', '--error-file', '/tmp/tmp52eroamk']
+[2023-03-08 00:58:44,457] {standard_task_runner.py:80} INFO - Job 58: Subtask run_script_transform
+[2023-03-08 00:58:44,495] {task_command.py:369} INFO - Running <TaskInstance: pipeline_bash_operator.run_script_transform manual__2023-03-08T00:58:25.075217+00:00 [running]> on host 477ef5e408be
+[2023-03-08 00:58:44,539] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Americo
+AIRFLOW_CTX_DAG_ID=pipeline_bash_operator
+AIRFLOW_CTX_TASK_ID=run_script_transform
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-08T00:58:25.075217+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-08T00:58:25.075217+00:00
+[2023-03-08 00:58:44,540] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-08 00:58:44,542] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'python /opt/***/dags/Proyecto/transform.py']
+[2023-03-08 00:58:44,550] {subprocess.py:85} INFO - Output:
+[2023-03-08 00:59:11,753] {subprocess.py:92} INFO - ingest loaded
+[2023-03-08 00:59:11,771] {subprocess.py:92} INFO - loaded adsl landing
+[2023-03-08 00:59:11,774] {subprocess.py:92} INFO - transform loaded
+[2023-03-08 00:59:11,777] {subprocess.py:92} INFO - loaded adsl gold
+[2023-03-08 00:59:11,887] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-03-08 00:59:11,909] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=pipeline_bash_operator, task_id=run_script_transform, execution_date=20230308T005825, start_date=20230308T005844, end_date=20230308T005911
+[2023-03-08 00:59:11,930] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-03-08 00:59:11,946] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

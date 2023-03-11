@@ -1,0 +1,165 @@
+[2023-03-03 02:21:02,809] {processor.py:153} INFO - Started process (PID=183) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:21:02,810] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:21:02,812] {logging_mixin.py:115} INFO - [2023-03-03 02:21:02,812] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:21:02,824] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:21:02,928] {logging_mixin.py:115} INFO - [2023-03-03 02:21:02,928] {manager.py:508} INFO - Created Permission View: can read on DAG:mysqloperator_demo
+[2023-03-03 02:21:02,934] {logging_mixin.py:115} INFO - [2023-03-03 02:21:02,934] {manager.py:508} INFO - Created Permission View: can edit on DAG:mysqloperator_demo
+[2023-03-03 02:21:02,938] {logging_mixin.py:115} INFO - [2023-03-03 02:21:02,938] {manager.py:508} INFO - Created Permission View: can delete on DAG:mysqloperator_demo
+[2023-03-03 02:21:02,939] {logging_mixin.py:115} INFO - [2023-03-03 02:21:02,939] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:21:02,945] {logging_mixin.py:115} INFO - [2023-03-03 02:21:02,945] {dag.py:2390} INFO - Creating ORM DAG for mysqloperator_demo
+[2023-03-03 02:21:02,962] {logging_mixin.py:115} INFO - [2023-03-03 02:21:02,962] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:21:02,973] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.165 seconds
+[2023-03-03 02:21:33,085] {processor.py:153} INFO - Started process (PID=189) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:21:33,087] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:21:33,088] {logging_mixin.py:115} INFO - [2023-03-03 02:21:33,088] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:21:33,098] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:21:33,120] {logging_mixin.py:115} INFO - [2023-03-03 02:21:33,120] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:21:33,138] {logging_mixin.py:115} INFO - [2023-03-03 02:21:33,138] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:21:33,145] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.061 seconds
+[2023-03-03 02:22:03,230] {processor.py:153} INFO - Started process (PID=194) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:22:03,231] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:22:03,232] {logging_mixin.py:115} INFO - [2023-03-03 02:22:03,232] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:22:03,242] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:22:03,275] {logging_mixin.py:115} INFO - [2023-03-03 02:22:03,275] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:22:03,299] {logging_mixin.py:115} INFO - [2023-03-03 02:22:03,299] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:22:03,319] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.091 seconds
+[2023-03-03 02:22:33,438] {processor.py:153} INFO - Started process (PID=199) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:22:33,439] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:22:33,441] {logging_mixin.py:115} INFO - [2023-03-03 02:22:33,441] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:22:33,455] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:22:33,476] {logging_mixin.py:115} INFO - [2023-03-03 02:22:33,476] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:22:33,489] {logging_mixin.py:115} INFO - [2023-03-03 02:22:33,489] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:22:33,495] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.061 seconds
+[2023-03-03 02:23:03,618] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:23:03,620] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:23:03,622] {logging_mixin.py:115} INFO - [2023-03-03 02:23:03,622] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:23:03,631] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:23:03,648] {logging_mixin.py:115} INFO - [2023-03-03 02:23:03,648] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:23:03,666] {logging_mixin.py:115} INFO - [2023-03-03 02:23:03,666] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:23:03,673] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.056 seconds
+[2023-03-03 02:23:33,809] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:23:33,812] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:23:33,816] {logging_mixin.py:115} INFO - [2023-03-03 02:23:33,816] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:23:33,831] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:23:33,860] {logging_mixin.py:115} INFO - [2023-03-03 02:23:33,860] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:23:33,875] {logging_mixin.py:115} INFO - [2023-03-03 02:23:33,875] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:23:33,884] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.080 seconds
+[2023-03-03 02:24:04,012] {processor.py:153} INFO - Started process (PID=214) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:24:04,015] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:24:04,017] {logging_mixin.py:115} INFO - [2023-03-03 02:24:04,017] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:24:04,034] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:24:04,055] {logging_mixin.py:115} INFO - [2023-03-03 02:24:04,055] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:24:04,069] {logging_mixin.py:115} INFO - [2023-03-03 02:24:04,069] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:24:04,076] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.068 seconds
+[2023-03-03 02:24:34,146] {processor.py:153} INFO - Started process (PID=219) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:24:34,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:24:34,150] {logging_mixin.py:115} INFO - [2023-03-03 02:24:34,150] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:24:34,163] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:24:34,184] {logging_mixin.py:115} INFO - [2023-03-03 02:24:34,184] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:24:34,199] {logging_mixin.py:115} INFO - [2023-03-03 02:24:34,199] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:24:34,206] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.064 seconds
+[2023-03-03 02:25:04,458] {processor.py:153} INFO - Started process (PID=224) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:25:04,461] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:25:04,463] {logging_mixin.py:115} INFO - [2023-03-03 02:25:04,463] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:25:04,479] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:25:04,497] {logging_mixin.py:115} INFO - [2023-03-03 02:25:04,497] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:25:04,511] {logging_mixin.py:115} INFO - [2023-03-03 02:25:04,510] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:25:04,517] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.064 seconds
+[2023-03-03 02:25:34,651] {processor.py:153} INFO - Started process (PID=229) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:25:34,652] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:25:34,656] {logging_mixin.py:115} INFO - [2023-03-03 02:25:34,656] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:25:34,669] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:25:34,688] {logging_mixin.py:115} INFO - [2023-03-03 02:25:34,688] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:25:34,704] {logging_mixin.py:115} INFO - [2023-03-03 02:25:34,704] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:25:34,712] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.065 seconds
+[2023-03-03 02:26:04,854] {processor.py:153} INFO - Started process (PID=234) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:26:04,857] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:26:04,859] {logging_mixin.py:115} INFO - [2023-03-03 02:26:04,859] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:26:04,874] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:26:04,893] {logging_mixin.py:115} INFO - [2023-03-03 02:26:04,893] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:26:04,907] {logging_mixin.py:115} INFO - [2023-03-03 02:26:04,907] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:26:04,914] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.064 seconds
+[2023-03-03 02:26:35,047] {processor.py:153} INFO - Started process (PID=239) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:26:35,049] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:26:35,052] {logging_mixin.py:115} INFO - [2023-03-03 02:26:35,051] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:26:35,066] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:26:35,086] {logging_mixin.py:115} INFO - [2023-03-03 02:26:35,086] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:26:35,101] {logging_mixin.py:115} INFO - [2023-03-03 02:26:35,101] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:26:35,109] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.065 seconds
+[2023-03-03 02:27:05,254] {processor.py:153} INFO - Started process (PID=244) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:27:05,256] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:27:05,257] {logging_mixin.py:115} INFO - [2023-03-03 02:27:05,257] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:27:05,272] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:27:05,291] {logging_mixin.py:115} INFO - [2023-03-03 02:27:05,291] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:27:05,304] {logging_mixin.py:115} INFO - [2023-03-03 02:27:05,304] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:27:05,311] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.060 seconds
+[2023-03-03 02:27:35,457] {processor.py:153} INFO - Started process (PID=249) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:27:35,459] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:27:35,461] {logging_mixin.py:115} INFO - [2023-03-03 02:27:35,461] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:27:35,474] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:27:35,492] {logging_mixin.py:115} INFO - [2023-03-03 02:27:35,492] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:27:35,505] {logging_mixin.py:115} INFO - [2023-03-03 02:27:35,505] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:27:35,513] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.060 seconds
+[2023-03-03 02:28:05,665] {processor.py:153} INFO - Started process (PID=254) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:28:05,667] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:28:05,668] {logging_mixin.py:115} INFO - [2023-03-03 02:28:05,668] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:28:05,684] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:28:05,703] {logging_mixin.py:115} INFO - [2023-03-03 02:28:05,703] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:28:05,717] {logging_mixin.py:115} INFO - [2023-03-03 02:28:05,716] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:28:05,725] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.063 seconds
+[2023-03-03 02:28:35,859] {processor.py:153} INFO - Started process (PID=259) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:28:35,861] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:28:35,863] {logging_mixin.py:115} INFO - [2023-03-03 02:28:35,863] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:28:35,879] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:28:35,899] {logging_mixin.py:115} INFO - [2023-03-03 02:28:35,899] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:28:35,914] {logging_mixin.py:115} INFO - [2023-03-03 02:28:35,914] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:28:35,921] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.066 seconds
+[2023-03-03 02:29:06,043] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:29:06,045] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:29:06,046] {logging_mixin.py:115} INFO - [2023-03-03 02:29:06,046] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:29:06,059] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:29:06,077] {logging_mixin.py:115} INFO - [2023-03-03 02:29:06,077] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:29:06,090] {logging_mixin.py:115} INFO - [2023-03-03 02:29:06,090] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:29:06,096] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.055 seconds
+[2023-03-03 02:29:36,220] {processor.py:153} INFO - Started process (PID=269) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:29:36,222] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:29:36,223] {logging_mixin.py:115} INFO - [2023-03-03 02:29:36,223] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:29:36,233] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:29:36,251] {logging_mixin.py:115} INFO - [2023-03-03 02:29:36,250] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:29:36,264] {logging_mixin.py:115} INFO - [2023-03-03 02:29:36,264] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:29:36,271] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.053 seconds
+[2023-03-03 02:30:06,429] {processor.py:153} INFO - Started process (PID=274) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:30:06,430] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:30:06,432] {logging_mixin.py:115} INFO - [2023-03-03 02:30:06,432] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:30:06,443] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:30:06,459] {logging_mixin.py:115} INFO - [2023-03-03 02:30:06,459] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:30:06,474] {logging_mixin.py:115} INFO - [2023-03-03 02:30:06,474] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:30:06,482] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.056 seconds
+[2023-03-03 02:30:37,642] {processor.py:153} INFO - Started process (PID=182) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:30:37,644] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:30:37,646] {logging_mixin.py:115} INFO - [2023-03-03 02:30:37,646] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:30:37,661] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:30:37,722] {logging_mixin.py:115} INFO - [2023-03-03 02:30:37,722] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:30:37,738] {logging_mixin.py:115} INFO - [2023-03-03 02:30:37,738] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:30:37,753] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.113 seconds
+[2023-03-03 02:31:07,806] {processor.py:153} INFO - Started process (PID=188) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:31:07,809] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:31:07,810] {logging_mixin.py:115} INFO - [2023-03-03 02:31:07,810] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:31:07,825] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:31:07,845] {logging_mixin.py:115} INFO - [2023-03-03 02:31:07,845] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:31:07,858] {logging_mixin.py:115} INFO - [2023-03-03 02:31:07,857] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:31:07,866] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.063 seconds
+[2023-03-03 02:31:38,067] {processor.py:153} INFO - Started process (PID=193) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:31:38,069] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:31:38,071] {logging_mixin.py:115} INFO - [2023-03-03 02:31:38,071] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:31:38,086] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:31:38,103] {logging_mixin.py:115} INFO - [2023-03-03 02:31:38,103] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:31:38,116] {logging_mixin.py:115} INFO - [2023-03-03 02:31:38,116] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:31:38,123] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.059 seconds
+[2023-03-03 02:32:08,187] {processor.py:153} INFO - Started process (PID=198) to work on /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:32:08,188] {processor.py:641} INFO - Processing file /opt/airflow/dags/mysqloperator.py for tasks to queue
+[2023-03-03 02:32:08,189] {logging_mixin.py:115} INFO - [2023-03-03 02:32:08,189] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:32:08,202] {processor.py:651} INFO - DAG(s) dict_keys(['mysqloperator_demo']) retrieved from /opt/airflow/dags/mysqloperator.py
+[2023-03-03 02:32:08,219] {logging_mixin.py:115} INFO - [2023-03-03 02:32:08,218] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-03 02:32:08,230] {logging_mixin.py:115} INFO - [2023-03-03 02:32:08,230] {dag.py:2919} INFO - Setting next_dagrun for mysqloperator_demo to 2023-03-02T00:00:00+00:00, run_after=2023-03-02T00:00:00+00:00
+[2023-03-03 02:32:08,237] {processor.py:161} INFO - Processing /opt/airflow/dags/mysqloperator.py took 0.052 seconds

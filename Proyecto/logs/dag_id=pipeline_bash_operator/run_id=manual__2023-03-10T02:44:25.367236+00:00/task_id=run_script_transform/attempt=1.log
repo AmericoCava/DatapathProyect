@@ -1,0 +1,27 @@
+[2023-03-10 02:44:45,043] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_transform manual__2023-03-10T02:44:25.367236+00:00 [queued]>
+[2023-03-10 02:44:45,049] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: pipeline_bash_operator.run_script_transform manual__2023-03-10T02:44:25.367236+00:00 [queued]>
+[2023-03-10 02:44:45,050] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-10 02:44:45,051] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-03-10 02:44:45,051] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-10 02:44:45,059] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): run_script_transform> on 2023-03-10 02:44:25.367236+00:00
+[2023-03-10 02:44:45,063] {standard_task_runner.py:52} INFO - Started process 3156 to run task
+[2023-03-10 02:44:45,065] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'pipeline_bash_operator', 'run_script_transform', 'manual__2023-03-10T02:44:25.367236+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_bash_operator.py', '--cfg-path', '/tmp/tmp7zwozr3c', '--error-file', '/tmp/tmpzw6c00gf']
+[2023-03-10 02:44:45,068] {standard_task_runner.py:80} INFO - Job 102: Subtask run_script_transform
+[2023-03-10 02:44:45,105] {task_command.py:369} INFO - Running <TaskInstance: pipeline_bash_operator.run_script_transform manual__2023-03-10T02:44:25.367236+00:00 [running]> on host 477ef5e408be
+[2023-03-10 02:44:45,148] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Americo
+AIRFLOW_CTX_DAG_ID=pipeline_bash_operator
+AIRFLOW_CTX_TASK_ID=run_script_transform
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-10T02:44:25.367236+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-10T02:44:25.367236+00:00
+[2023-03-10 02:44:45,150] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-10 02:44:45,151] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'python /opt/***/dags/Proyecto/transform.py']
+[2023-03-10 02:44:45,158] {subprocess.py:85} INFO - Output:
+[2023-03-10 02:45:09,062] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-03-10 02:45:09,083] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=pipeline_bash_operator, task_id=run_script_transform, execution_date=20230310T024425, start_date=20230310T024445, end_date=20230310T024509
+[2023-03-10 02:45:09,104] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-03-10 02:45:09,123] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
